@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, { Component, Fragment } from 'react';
 import './App.css';
+import Filters from './components/filters/Filters';
 
 
 function App() {
-  return <Frarment>
-    
-  </Frarment>
+  return <Fragment>
+      <Filters />
+  </Fragment>
 }
 
 

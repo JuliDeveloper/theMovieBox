@@ -56,17 +56,6 @@
     position: relative;
 }
 
-/*.link::after {
-    content: "";
-    width: 190px;
-    height: 2px;
-    background: #ff0079;
-    position: absolute;
-    bottom: -33px;
-    left: -39px;
-    display: none;
-}*/
-
 .link:hover {
     color: #ff0079;
 }
@@ -104,6 +93,10 @@
     cursor: pointer;
 }
 
+.square:hover > .square__line::after {
+    border: 2px solid #ff0079;
+}
+
 .square__line {
     line-height: 0;
 }
@@ -125,6 +118,14 @@
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
+}
+
+.rectangle:hover > .rectangle__line::after {
+    border: 2px solid #ff0079;
+}
+
+.rectangle:hover > .rectangle__small::after {
+    border: 2px solid #ff0079;
 }
 
 .rectangle__line {
