@@ -1,0 +1,71 @@
+.header {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: url(../../images/header.jpg) no-repeat center;
+}
+
+.top-menu {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 50px 0;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.search {
+    width: 50px;
+    height: 50px;
+    background: url(../../images/search.svg) no-repeat center;
+    display: block;
+    position: absolute;
+    right: 300px;
+    top: 35px;
+    cursor: pointer;
+}
+
+.log-in {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    right: 200px;
+    margin: 15px 0;
+}
+
+.log-in:hover {
+    color: #ff0079;
+}
+
+.sing-up {
+    background: #ff0079;
+    border: 1px solid #979797;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    position: absolute;
+    right: 50px;
+    top: 35px;
+}
+
+.sing-up:hover {
+    background: #fff;
+    color: #ff0079;
+}
