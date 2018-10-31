@@ -1,0 +1,156 @@
+.filters {
+    max-width: 1340px;
+    margin: 50px auto 120px;
+    padding: 0 0 30px;
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter__left {
+    width: 650px;
+}
+
+.filter__list {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fall {
+    position: relative;
+}
+
+.fall::before {
+    content: "";
+    width: 2px;
+    height: 6px;
+    background: #80818a;
+    border-radius: 3px;
+    display: inline-block;
+    position: absolute;
+    right: -8px;
+    top: 11px;
+    transform: rotate(45deg);
+}
+
+.fall::after {
+    content: "";
+    width: 2px;
+    height: 6px;
+    border-radius: 3px;
+    background: #80818a;
+    display: inline-block;
+    position: absolute;
+    top: 11px;
+    right: -5px;
+    transform: rotate(-45deg);
+}
+
+.link {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: #80818a;
+    position: relative;
+}
+
+/*.link::after {
+    content: "";
+    width: 190px;
+    height: 2px;
+    background: #ff0079;
+    position: absolute;
+    bottom: -33px;
+    left: -39px;
+    display: none;
+}*/
+
+.link:hover {
+    color: #ff0079;
+}
+
+.sublist {
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 10px;
+    display: none;
+}
+
+.subitem + .subitem {
+    margin: 10px 0 0;
+}
+
+.fall:hover > .sublist {
+    display: block;
+}
+
+.filter__right {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.square {
+    max-width: 29px;
+    height: 29px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.square__line {
+    line-height: 0;
+}
+
+.square__line::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid #babbc3;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.rectangle {
+    max-width: 29px;
+    height: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.rectangle__line {
+    line-height: 0;
+}
+
+.rectangle__line::after {
+    content: "";
+    width: 24px;
+    height: 5px;
+    background: #fff;
+    border: 2px solid #babbc3;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.rectangle__small {
+    line-height: 0;
+}
+
+.rectangle__small::after {
+    content: "";
+    width: 18px;
+    height: 5px;
+    background: #fff;
+    border: 2px solid #babbc3;
+    border-radius: 2px;
+    display: inline-block;
+}
