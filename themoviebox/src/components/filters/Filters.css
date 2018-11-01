@@ -1,20 +1,28 @@
 .filters {
     max-width: 1340px;
     margin: 50px auto 120px;
-    padding: 0 0 30px;
     border-bottom: 1px solid #dfdfdf;
     display: flex;
     justify-content: space-between;
 }
 
 .filter__left {
-    width: 650px;
+    max-width: 650px;
 }
 
 .filter__list {
     max-width: 100%;
     display: flex;
-    justify-content: space-around;
+}
+
+.filter__item {
+    padding: 0 20px 40px;
+    position: relative;
+    display: block;
+}
+
+.filter__item:hover {
+    border-bottom: 2px solid #ff0079;
 }
 
 .fall {
@@ -29,7 +37,7 @@
     border-radius: 3px;
     display: inline-block;
     position: absolute;
-    right: -8px;
+    right: 11px;
     top: 11px;
     transform: rotate(45deg);
 }
@@ -43,7 +51,7 @@
     display: inline-block;
     position: absolute;
     top: 11px;
-    right: -5px;
+    right: 14px;
     transform: rotate(-45deg);
 }
 
@@ -64,8 +72,8 @@
     background: #fff;
     border: 1px solid #dfdfdf;
     position: absolute;
-    top: 100%;
-    left: 0;
+    top: 50%;
+    left: 50%;
     padding: 10px;
     display: none;
 }
