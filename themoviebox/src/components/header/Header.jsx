@@ -2,7 +2,6 @@ import React from 'react';
 import '../../../src/css-reset.css';
 import './Header.css';
 
-
 function Header() {
     return <header className="header">
         <div className="top-menu">
