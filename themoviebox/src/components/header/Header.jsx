@@ -15,13 +15,13 @@ function Header() {
         </div>
         <div className="info-movie">
                 <h1 className="title">Wrath of the titans</h1>
-                <ul className="category">
+                <ul className="film-categories">
                     <li className="category__name">Fantasy</li>
                     <li className="category__name">Animation</li>
                     <li className="category__name">Family</li>
                     <li className="category__name line">Duration: 1h 52m</li>
                 </ul>
-                <div className="button">
+                <div className="buttons">
                     <button className="watch">Watch movie</button>
                     <button className="more-info">View info</button>
                     <button className="add">+ Add to Wishlist</button>
