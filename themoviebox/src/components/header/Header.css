@@ -11,10 +11,10 @@
 }
 
 .logo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--Helvetica);
     font-size: 50px;
     line-height: 60px;
-    color: #fff;
+    color: var(--white);
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -35,10 +35,10 @@
     border: none;
     outline: none;
     cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--Helvetica);
     font-size: 20px;
     line-height: 30px;
-    color: #fff;
+    color: var(--white);
     text-transform: uppercase;
     position: absolute;
     right: 200px;
@@ -46,19 +46,19 @@
 }
 
 .log-in:hover {
-    color: #ff0079;
+    color: var(--deepPink);
 }
 
 .sing-up {
-    background: #ff0079;
+    background: var(--deepPink);
     border: 1px solid transparent;
     border-radius: 5px;
     outline: none;
     cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--Helvetica);
     font-size: 20px;
     line-height: 30px;
-    color: #fff;
+    color: var(--white);
     text-transform: uppercase;
     padding: 10px 20px;
     position: absolute;
@@ -67,8 +67,8 @@
 }
 
 .sing-up:hover {
-    background: #fff;
-    color: #ff0079;
+    background: var(--white);
+    color: var(--deepPink);
 }
 
 .info-movie {
@@ -79,10 +79,10 @@
 }
 
 .title {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--Helvetica);
     font-size: 70px;
     line-height: 80px;
-    color: #fff;
+    color: var(--white);
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -97,10 +97,10 @@
 }
 
 .category__name {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--Helvetica);
     font-size: 20px;
     line-height: 30px;
-    color: #fff;
+    color: var(--white);
     opacity: .7;
 }
 
@@ -109,7 +109,7 @@
     display: block;
     width: 1px;
     height: 25px;
-    background: #fff;
+    background: var(--white);
     opacity: .7px;
     border-radius: 5px;
     position: absolute;
@@ -127,14 +127,14 @@
 
 
 .watch {
-    background: #ff0079;
+    background: var(--deepPink);
     border: 1px solid transparent;
     border-radius: 3px;
     padding: 10px 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--Helvetica);
     font-size: 20px;
     line-height: 30px;
-    color: #fff;
+    color: var(--white);
     text-transform: uppercase;
     cursor: pointer;
     outline: none;
@@ -142,13 +142,13 @@
 
 .more-info {
     background: none;
-    border: 1px solid #fff;
+    border: 1px solid var(--white);
     padding: 10px 25px;
     border-radius: 3px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--Helvetica);
     font-size: 20px;
     line-height: 30px;
-    color: #fff;
+    color: var(--white);
     text-transform: uppercase;
     cursor: pointer;
     outline: none;
@@ -157,10 +157,10 @@
 .add {
     background: none;
     border: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--Helvetica);
     font-size: 20px;
     line-height: 30px;
-    color: #fff;
+    color: var(--white);
     text-transform: uppercase;
     cursor: pointer;
     opacity: .8;
@@ -172,7 +172,7 @@
     position: absolute;
     right: 50px;
     bottom: 50px;
-    color: white;
+    color: var(--white);
     background: rgba(73, 76, 98, .2);
     border: 1px solid rgba(255, 255, 255, .2);
     border-radius: 3px;
@@ -180,19 +180,19 @@
 }
 
 .rating__title {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--Helvetica);
     font-size: 30px;
     line-height: 35px;
-    color: #fff;
+    color: var(--white);
     display: inline-block;
     margin: 0 5px 0 0;
 }
 
 .rating__info {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--Helvetica);
     font-size: 18px;
     line-height: 35px;
-    color: #fff;
+    color: var(--white);
     display: inline-block;
     opacity: .5;
 }
@@ -204,10 +204,10 @@
 }
 
 .rating__numbers {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--Helvetica);
     font-size: 18px;
     line-height: 20px;
-    color: #fff;
+    color: var(--white);
     padding: 5px;
     border: 1px solid rgba(255, 255, 255, .2);
     border-radius: 3px;

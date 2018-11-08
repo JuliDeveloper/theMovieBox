@@ -1,0 +1,15 @@
+@import './css-reset.css';
+@import './fonts.css';
+:root {
+
+    --black: #000;
+    --white: #fff;
+    --deepPink: #ff0079;
+    --darkTelegraph: #80818a;
+    --cadetBlueKrayola: #babbc3;
+    --marengo: #494c62;
+
+
+    --Helvetica: 'Helvetica';
+
+}
