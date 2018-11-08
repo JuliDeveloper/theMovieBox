@@ -83,7 +83,7 @@
     cursor: pointer;
 }
 
-.category {
+.film-categories {
     max-width: 500px;
     list-style: none;
     display: flex;
@@ -112,7 +112,7 @@
     top: 4px;
 }
 
-.button {
+.buttons {
     max-width: 600px;
     margin: 35px 0 0;
     padding: 0 0 50px;
