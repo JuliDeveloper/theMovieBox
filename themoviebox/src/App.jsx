@@ -1,11 +1,12 @@
-import React, { Component,Fragment } from 'react';
+import React, { Fragment } from 'react';
 import './App.css';
-import '../src/css-reset.css';
+import './css-reset.css';
+import './style.css';
 
 
 function App() {
   return <Fragment>
-    
+
   </Fragment>
 }
 
