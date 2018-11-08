@@ -2,6 +2,7 @@
     max-width: 1920px;
     min-height: 650px;
     margin: 0 auto;
+    padding: 0 50px;
     background: url(../../images/header.jpg) no-repeat center;
     position: relative;
 }
@@ -9,7 +10,7 @@
 .top-menu {
     max-width: 100%;
     margin: 0 auto;
-    padding: 30px 50px 0;
+    padding: 30px 0 0;
 }
 
 .logo {
@@ -76,7 +77,6 @@
 .info-movie {
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 50px;
     position: absolute;
     bottom: 0;
 }
@@ -173,7 +173,7 @@
 .rating {
     width: 350px;
     position: absolute;
-    right: -62%;
+    right: -76%;
     bottom: 50px;
     color: var(--white);
     background: rgba(73, 76, 98, .2);
