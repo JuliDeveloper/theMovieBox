@@ -7,12 +7,13 @@ function Header() {
     return <header className="header">
         <div className="top-menu">
             <span className="logo">themoviebox</span>
-            <span className="search"></span>
-            <button className="log-in">log in</button>
-            <button className="sing-up">sing up</button>
+            <div className="box">
+                <span className="search"></span>
+                <button className="log-in">log in</button>
+                <button className="sing-up">sing up</button>
+            </div>
         </div>
         <div className="info-movie">
-            
                 <h1 className="title">Wrath of the titans</h1>
                 <ul className="category">
                     <li className="category__name">Fantasy</li>
@@ -25,7 +26,6 @@ function Header() {
                     <button className="more-info">View info</button>
                     <button className="add">+ Add to Wishlist</button>
                 </div>
-           
             <div className="rating">
                 <h2 className="rating__title">Rating</h2>
                 <span className="rating__info">based on 3.546 reviews</span>
