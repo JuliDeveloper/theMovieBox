@@ -27,13 +27,7 @@ function Header() {
             <div className="rating">
                 <h2 className="rating__title">Rating</h2>
                 <span className="rating__info">based on 3.546 reviews</span>
-                <ul className="rating__stars">
-                    <li className="item star-full"></li>
-                    <li className="item star-full"></li>
-                    <li className="item star-full"></li>
-                    <li className="item star-half"></li>
-                    <li className="item star"></li>
-                </ul>
+                <div className="stars"></div>
                 <span className="rating__numbers">3.4</span>
             </div>
         </div>

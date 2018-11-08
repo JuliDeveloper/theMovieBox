@@ -168,6 +168,7 @@
 }
 
 .rating {
+    width: 350px;
     position: absolute;
     right: 50px;
     bottom: 50px;
@@ -196,25 +197,10 @@
     opacity: .5;
 }
 
-.rating__stars {
-    display: flex;
-}
-
-.item {
-    width: 45px;
+.stars {
+    width: 284px;
     height: 40px;
-}
-
-.star-full {
-    background: url(../../images/full-star.svg) no-repeat;
-}
-
-.star-half {
-    background: url(../../images/half-star.svg) no-repeat;
-}
-
-.star {
-    background: url(../../images/star.svg) no-repeat;
+    background: url(../../images/stars.svg) no-repeat;
 }
 
 .rating__numbers {
