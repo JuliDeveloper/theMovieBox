@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./fonts/helveticaRegular/HelveticaRegular.woff') format('woff'),
+         url('./fonts/helveticaRegular/HelveticaRegular.ttf') format('ttf')
+         url('./fonts/helveticaRegular/HelveticaRegular.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
