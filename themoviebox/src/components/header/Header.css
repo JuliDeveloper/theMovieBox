@@ -1,7 +1,9 @@
 .header {
     max-width: 1920px;
+    min-height: 650px;
     margin: 0 auto;
     background: url(../../images/header.jpg) no-repeat center;
+    position: relative;
 }
 
 .top-menu {
@@ -73,9 +75,10 @@
 
 .info-movie {
     max-width: 100%;
+    margin: 0 auto;
     padding: 0 50px;
-    margin: 350px auto 0;
-    position: relative;
+    position: absolute;
+    bottom: 0;
 }
 
 .title {
@@ -170,7 +173,7 @@
 .rating {
     width: 350px;
     position: absolute;
-    right: 50px;
+    right: -62%;
     bottom: 50px;
     color: var(--white);
     background: rgba(73, 76, 98, .2);
