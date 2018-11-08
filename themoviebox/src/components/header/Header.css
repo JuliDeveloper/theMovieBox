@@ -88,7 +88,6 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
-    cursor: pointer;
     position: relative;
 }
 
