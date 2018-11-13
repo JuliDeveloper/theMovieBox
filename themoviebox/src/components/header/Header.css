@@ -4,6 +4,7 @@
     margin: 0 auto;
     padding: 0 50px;
     background: url(../../images/header.jpg) no-repeat center;
+    background-size: 100% auto; 
     position: relative;
 }
 
