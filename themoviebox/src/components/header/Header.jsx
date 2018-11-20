@@ -13,6 +13,7 @@ function Header() {
             </div>
         </div>
         <div className="info-movie">
+            <div className="info">
                 <h1 className="title">Wrath of the titans</h1>
                 <ul className="film-categories">
                     <li className="category__name">Fantasy</li>
@@ -25,6 +26,7 @@ function Header() {
                     <button className="more-info">View info</button>
                     <button className="add">+ Add to Wishlist</button>
                 </div>
+            </div>
             <div className="rating">
                 <h2 className="rating__title">Rating</h2>
                 <span className="rating__info">based on 3.546 reviews</span>
