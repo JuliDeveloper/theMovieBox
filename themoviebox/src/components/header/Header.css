@@ -119,14 +119,12 @@
 }
 
 .buttons {
-    max-width: 600px;
     margin: 35px 0 0;
     display: flex;
-    justify-content: space-between;
 }
 
-
 .watch {
+    margin: 0 20px 0 0;
     background: var(--deepPink);
     border: 1px solid transparent;
     border-radius: 3px;
@@ -141,6 +139,7 @@
 }
 
 .more-info {
+    margin: 0 20px 0 0;
     background: none;
     border: 1px solid var(--white);
     padding: 10px 25px;
