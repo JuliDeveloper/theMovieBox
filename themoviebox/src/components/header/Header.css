@@ -40,12 +40,9 @@
     cursor: pointer;
 }
 
-.log-in {
-    font-family: var(--Helvetica);
-    font-size: 20px;
-    line-height: 30px;
-    color: var(--white);
-    text-transform: uppercase;
+
+.log-in{
+
 }
 
 .log-in:hover {
@@ -54,13 +51,6 @@
 
 .sing-up {
     background: var(--deepPink);
-    border-radius: 3px;
-    font-family: var(--Helvetica);
-    font-size: 20px;
-    line-height: 30px;
-    color: var(--white);
-    text-transform: uppercase;
-    padding: 10px 20px;
 }
 
 .sing-up:hover {
@@ -127,41 +117,17 @@
     margin: 0 20px 0 0;
     background: var(--deepPink);
     border: 1px solid transparent;
-    border-radius: 3px;
-    padding: 10px 25px;
-    font-family: var(--Helvetica);
-    font-size: 20px;
-    line-height: 30px;
-    color: var(--white);
-    text-transform: uppercase;
-    cursor: pointer;
-    outline: none;
 }
 
 .more-info {
     margin: 0 20px 0 0;
     background: none;
     border: 1px solid var(--white);
-    padding: 10px 25px;
-    border-radius: 3px;
-    font-family: var(--Helvetica);
-    font-size: 20px;
-    line-height: 30px;
-    color: var(--white);
-    text-transform: uppercase;
-    cursor: pointer;
-    outline: none;
 }
 
 .add {
+    padding: 0;
     background: none;
     border: none;
-    font-family: var(--Helvetica);
-    font-size: 20px;
-    line-height: 30px;
-    color: var(--white);
-    text-transform: uppercase;
-    cursor: pointer;
     opacity: .8;
-    outline: none;
 }

@@ -1,0 +1,11 @@
+.button {
+    border-radius: 3px;
+    padding: 10px 25px;
+    font-family: var(--Helvetica);
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--white);
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import '../../../src/css-reset.css';
 import './Header.css';
 import Rating from '../rating/rating.jsx';
+import Button from '../button/button.jsx';
 
 function Header() {
     return <header className="header">
@@ -9,8 +10,8 @@ function Header() {
             <span className="logo">themoviebox</span>
             <div className="box">
                 <span className="search"></span>
-                <button className="log-in">log in</button>
-                <button className="sing-up">sing up</button>
+                <Button text="log in"  css="log-in"/>
+                <Button text="sing-in" css="sing-up"/>
             </div>
         </div>
         <div className="info-movie">
@@ -23,9 +24,12 @@ function Header() {
                     <li className="category__name line">Duration: 1h 52m</li>
                 </ul>
                 <div className="buttons">
-                    <button className="watch">Watch movie</button>
+                    <Button text="Watch movie" css="watch"/>
+                    <Button text="View info" css="more-info"/>
+                    <Button text="+ Add to Wishlist" css="add"/>
+                   { /*<button className="watch">Watch movie</button>
                     <button className="more-info">View info</button>
-                    <button className="add">+ Add to Wishlist</button>
+                    <button className="add">+ Add to Wishlist</button>*/ }
                 </div>
             </div>
             <Rating />
