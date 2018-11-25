@@ -11,7 +11,7 @@ function Header() {
             <div className="box">
                 <span className="search"></span>
                 <Button text="log in"  css="log-in"/>
-                <Button text="sing-in" css="sing-up"/>
+                <Button text="sing-up" css="sing-up"/>
             </div>
         </div>
         <div className="info-movie">
