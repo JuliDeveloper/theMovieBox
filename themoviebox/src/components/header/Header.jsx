@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../../src/css-reset.css';
 import './Header.css';
+import Rating from '../rating/rating.jsx';
 
 function Header() {
     return <header className="header">
@@ -27,12 +28,7 @@ function Header() {
                     <button className="add">+ Add to Wishlist</button>
                 </div>
             </div>
-            <div className="rating">
-                <h2 className="rating__title">Rating</h2>
-                <span className="rating__info">based on 3.546 reviews</span>
-                <div className="stars"></div>
-                <span className="rating__numbers">3.4</span>
-            </div>
+            <Rating />
         </div>
     </header>
 }

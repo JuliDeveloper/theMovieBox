@@ -1,0 +1,25 @@
+.stars__list {
+    display: flex;
+    margin: 20px 0 0;
+}
+
+.star__list-item {
+    width: 42px;
+    height: 40px;
+}
+
+.star__list-item + .star__list-item {
+    margin: 0 0 0 10px;
+}
+
+.full {
+    background: url(../../images/full-star.svg) no-repeat;
+}
+
+.half {
+    background: url(../../images/half-star.svg) no-repeat;
+}
+
+.empty {
+    background: url(../../images/empty.svg) no-repeat;
+}
