@@ -1,0 +1,71 @@
+.card {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 35px 0px rgba(0, 0, 0, .1);
+}
+
+.image {
+    max-width: 100%;
+    height: 380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.image::before {
+    content: "";
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(transparent, var(--black));
+    opacity: .8;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+.year {
+    font-family: var(--Helvetica);
+    font-size: 25px;
+    line-height: 25px;
+    color: var(--cadetBlueKrayola);
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+.info-movie {
+    background: #fff;
+    max-width: 100%;
+    position: relative;
+    padding: 25px 0 30px 20px;
+}
+
+.title {
+    max-width: 220px;
+    font-family: var(--Helvetica);
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--marengo);
+}
+
+.category {
+    font-family: var(--Helvetica);
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--cadetBlueKrayola);
+    margin: 6px 0 0;
+}
+
+.rating {
+    font-family: var(--Helvetica);
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--deepPink);
+    padding: 5px 10px;
+    border: 1px solid var(--deepPink);
+    border-radius: 2px;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+}

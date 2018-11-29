@@ -13,75 +13,52 @@
     grid-row-gap: 40px;
 }
 
-.card {
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 2px 35px 0px rgba(0, 0, 0, .1);
+.logan {
+    background: url(../../images/content/logan.jpg);
 }
 
-.image {
-    max-width: 100%;
-    height: 380px;
-    background: url(../../images/content/1.jpg) no-repeat center;
-    background-size: cover; 
-    position: relative;
+.john-wick {
+    background: url(../../images/content/john-wick.jpg);
 }
 
-.image::before {
-    content: "";
-    width: 100%;
-    height: 100px;
-    background: linear-gradient(transparent, var(--black));
-    opacity: .8;
-    display: block;
-    position: absolute;
-    bottom: 0;
+.fantastic-beasts {
+    background: url(../../images/content/fantastic.jpg);
 }
 
-.year {
-    font-family: var(--Helvetica);
-    font-size: 25px;
-    line-height: 25px;
-    color: var(--cadetBlueKrayola);
-    position: absolute;
-    bottom: 15px;
-    left: 20px;
+.fifty-shades-darker {
+    background: url(../../images/content/fifty-shades-darker.jpg);
 }
 
-.info-movie {
-    max-width: 100%;
-    position: relative;
-    padding: 25px 0 30px 20px;
+.beauty-and-the-beast {
+    background: url(../../images/content/beauty-and-the-beast.jpg);
 }
 
-.title {
-    max-width: 220px;
-    font-family: var(--Helvetica);
-    font-size: 20px;
-    line-height: 30px;
-    color: var(--marengo);
+.arrival {
+    background: url(../../images/content/arrival.jpg);
 }
 
-.category {
-    font-family: var(--Helvetica);
-    font-size: 15px;
-    line-height: 20px;
-    color: var(--cadetBlueKrayola);
-    margin: 6px 0 0;
+.justice-league {
+    background: url(../../images/content/justice-league.jpg);
 }
 
-.rating {
-    font-family: var(--Helvetica);
-    font-size: 15px;
-    line-height: 20px;
-    color: var(--deepPink);
-    padding: 5px 10px;
-    border: 1px solid var(--deepPink);
-    border-radius: 2px;
-    position: absolute;
-    top: 40px;
-    right: 15px;
+.pirates {
+    background: url(../../images/content/pirates.jpg);
+}
+
+.wonder-woman {
+    background: url(../../images/content/wonder-woman.jpg);
+}
+
+.guardians {
+    background: url(../../images/content/guardians.jpg);
+}
+
+.alien {
+    background: url(../../images/content/alien.jpg);
+}
+
+.captain {
+    background: url(../../images/content/captain.jpg);
 }
 
 .loading {
