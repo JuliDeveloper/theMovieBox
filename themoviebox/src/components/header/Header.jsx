@@ -27,9 +27,6 @@ function Header() {
                     <Button text="Watch movie" css="watch"/>
                     <Button text="View info" css="more-info"/>
                     <Button text="+ Add to Wishlist" css="add"/>
-                   { /*<button className="watch">Watch movie</button>
-                    <button className="more-info">View info</button>
-                    <button className="add">+ Add to Wishlist</button>*/ }
                 </div>
             </div>
             <Rating />
