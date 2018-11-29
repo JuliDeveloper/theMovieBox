@@ -40,11 +40,6 @@
     cursor: pointer;
 }
 
-
-.log-in{
-
-}
-
 .log-in:hover {
     color: var(--deepPink);
 }
