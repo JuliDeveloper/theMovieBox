@@ -24,10 +24,10 @@ function Filters() {
                 <span className="square__line"></span>
                 <span className="square__line"></span>
             </div>
-            <div className="rectangle">
-                <span className="rectangle__line"></span>
-                <span className="rectangle__small"></span>
-                <span className="rectangle__line"></span>
+            <div className="rectangles">
+                <span className="rectangles__line"></span>
+                <span className="rectangles__small"></span>
+                <span className="rectangles__line"></span>
             </div>
         </div>
     </div>

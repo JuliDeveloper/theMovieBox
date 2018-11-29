@@ -121,7 +121,7 @@
     display: inline-block;
 }
 
-.rectangle {
+.rectangles {
     max-width: 29px;
     height: 29px;
     display: flex;
@@ -130,19 +130,19 @@
     cursor: pointer;
 }
 
-.rectangle:hover > .rectangle__line::after {
+.rectangles:hover > .rectangles__line::after {
     border: 2px solid var(--deepPink);
 }
 
-.rectangle:hover > .rectangle__small::after {
+.rectangles:hover > .rectangles__small::after {
     border: 2px solid var(--deepPink);
 }
 
-.rectangle__line {
+.rectangles__line {
     line-height: 0;
 }
 
-.rectangle__line::after {
+.rectangles__line::after {
     content: "";
     width: 24px;
     height: 5px;
@@ -152,11 +152,11 @@
     display: inline-block;
 }
 
-.rectangle__small {
+.rectangles__small {
     line-height: 0;
 }
 
-.recangle__small::after {
+.rectangles__small::after {
     content: "";
     width: 18px;
     height: 5px;
