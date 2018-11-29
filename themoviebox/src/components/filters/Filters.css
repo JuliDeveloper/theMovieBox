@@ -1,4 +1,4 @@
-.filters {
+.tab-bar {
     max-width: 1340px;
     margin: 0 auto;
     padding: 50px 50px 0;
@@ -8,22 +8,22 @@
     background: var(--smokyWhite);
 }
 
-.filter__left {
+.tab-bar__left {
     max-width: 650px;
 }
 
-.filter__list {
+.tab-bar__list {
     max-width: 100%;
     display: flex;
 }
 
-.filter__item {
+.tab-bar__item {
     padding: 0 20px 40px;
     position: relative;
     display: block;
 }
 
-.filter__item:hover {
+.tab-bar__item:hover {
     border-bottom: 2px solid var(--deepPink);
 }
 
@@ -88,7 +88,7 @@
     display: block;
 }
 
-.filter__right {
+.tab-bar__right {
     width: 80px;
     display: flex;
     justify-content: space-between;
