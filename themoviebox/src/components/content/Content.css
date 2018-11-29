@@ -65,17 +65,20 @@
     width: 100%;
     margin: 130px auto 0;
     display: flex;
-    justify-content: center;
-    position: relative;
+    flex-direction: column;
+    align-items: center;   
 }
+
 
 .line {
     width: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    top: -70px;
+    margin: 0 0 30px;
+    animation-name: loading;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 .line__small::before {
@@ -114,4 +117,26 @@
     line-height: 25px;
     color: var(--cadetBlueKrayola);
     text-transform: uppercase;
+}
+
+@keyframes loading {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: rotate(180deg) scale(1.3);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    75% {
+        transform: rotate(-180deg) scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
