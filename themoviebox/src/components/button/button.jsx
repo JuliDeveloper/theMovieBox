@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../src/css-reset.css';
 import './button.css';
 
 function Button({text, css}) {

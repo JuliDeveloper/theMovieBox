@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../src/css-reset.css';
 import './Header.css';
 import Rating from '../rating/rating.jsx';
 import Button from '../button/button.jsx';

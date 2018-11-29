@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../src/css-reset.css';
 import './rating.css';
 import Stars from '../stars/stars.jsx';
 
