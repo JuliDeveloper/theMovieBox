@@ -58,14 +58,14 @@
 
 }
 
-.icon {
-    width: 41px;
-    height: 42px;
-    cursor: pointer;
-}
-
 .icon + .icon {
     margin: 0 0 0 10px;
+}
+
+.link {
+    width: 41px;
+    height: 42px;
+    display: block;
 }
 
 .facebook {

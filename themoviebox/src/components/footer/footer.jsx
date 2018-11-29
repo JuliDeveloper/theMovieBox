@@ -15,10 +15,10 @@ function Footer() {
         <div className="footer__down">
             <span className="text">Designed by Milan Houter. All rights reserved.</span>
             <ul className="social-network">
-                <li className="icon facebook"></li>
-                <li className="icon pinterest"></li>
-                <li className="icon twitter"></li>
-                <li className="icon in"></li>
+                <li className="icon"><a className="link facebook" href="https://www.facebook.com/"></a></li>
+                <li className="icon"><a className="link pinterest" href="https://www.pinterest.ru/"></a></li>
+                <li className="icon"><a className="link twitter" href="https://twitter.com/"></a></li>
+                <li className="icon"><a className="link in" href="https://www.linkedin.cn/uas/login"></a></li>
             </ul>
         </div>
     </div>
