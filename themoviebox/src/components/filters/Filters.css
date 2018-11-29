@@ -156,7 +156,7 @@
     line-height: 0;
 }
 
-.rectangle__small::after {
+.recangle__small::after {
     content: "";
     width: 18px;
     height: 5px;
