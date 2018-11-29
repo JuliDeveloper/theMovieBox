@@ -14,7 +14,7 @@ function Footer() {
         </div>
         <div className="footer__down">
             <span className="text">Designed by Milan Houter. All rights reserved.</span>
-            <ul className="seti">
+            <ul className="social-network">
                 <li className="icon facebook"></li>
                 <li className="icon pinterest"></li>
                 <li className="icon twitter"></li>
